@@ -4,7 +4,7 @@ port = 587  # For starttls
 smtp_server = "smtp.gmail.com"
 sender_email = "arundsnewjenkins@gmail.com"
 receiver_email = "arundsnew@gmail.com"
-password = input("Type your password and press enter:")
+password = "!1DockerJenkins*"
 message = """\
 Subject: Successfully tested
 
