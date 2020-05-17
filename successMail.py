@@ -17,3 +17,8 @@ with smtplib.SMTP(smtp_server, port) as server:
     server.ehlo()  # Can be omitted
     server.login(sender_email, password)
     server.sendmail(sender_email, receiver_email, message)
+    
+except:
+    print("Error occured, mail not sent")
+else:
+    print("Mail successfully sent")
